@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    background: radial-gradient(ellipse,#f7e4e4, #f8d0d0);
+    
+}
+
+.TopBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.TopBarText{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    color:black;
+}
+
+.MainBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.anImage{
+    display:flex;
+    justify-content: center;
+    background: rgb(245, 245, 245);
+    margin-bottom: 5px;
+    width: 70rem;
+    height: 20rem;
+}

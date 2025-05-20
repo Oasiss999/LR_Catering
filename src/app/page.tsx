@@ -20,7 +20,7 @@ export default function Home() {
           <div className ="TopBarButtons">
             <a href="https://catholiccharitiessf.org" target="_blank"><button className ="TopBarButton" > CYO-Home</button></a>
             <button className ="TopBarButton"> Social Media</button>
-            <button className ="TopBarButton"> Gallery</button> 
+            <a href='/gallery'><button className ="TopBarButton"> Gallery</button> </a>
 
           </div>
         </div>
