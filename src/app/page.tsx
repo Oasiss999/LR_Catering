@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className="Title">Our Lady of the Redwoods Catering</div>
           <div className ="TopBarButtons">
-            <button className ="TopBarButton"> CYO-Home</button>
+            <a href="https://catholiccharitiessf.org" target="_blank"><button className ="TopBarButton" > CYO-Home</button></a>
             <button className ="TopBarButton"> Social Media</button>
             <button className ="TopBarButton"> Gallery</button> 
 
