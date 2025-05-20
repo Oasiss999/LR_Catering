@@ -1,0 +1,108 @@
+.TopBar {
+  display: flex;
+  background: linear-gradient(90deg, #611907 0%,#b9563a 50%, #611907 100%);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+  
+}
+
+.TopBarButton{
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 100%;
+    font-size:  1rem;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.TopBarButton:hover{
+
+    color: rgb(67, 164, 255);
+}
+
+.Logo {
+ height: auto;
+ width: auto;
+
+}
+
+.Title {
+  font-size: 3em;
+  font-family: Georgia;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.ImageContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.MainBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+.MainImage{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.ImageText{
+    font-size: 21px;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.Button{
+    background-color: #bd4a2d;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    width: auto;
+    font-size:  80%;
+    margin-right: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.Button:hover{
+    color: rgb(67, 164, 255);
+    background-color: #a03e26;
+    transform: scale(1.1);
+}
+
+.ImageButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.PageFooter{
+    display: flex;
+    flex-direction: row;
+    background-color: #611907;
+    width: 100%;
+}
+.FooterText{
+    display: flex;
+    gap: 2rem;
+}
