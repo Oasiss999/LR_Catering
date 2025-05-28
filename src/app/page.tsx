@@ -25,47 +25,64 @@ export default function Home() {
           </div>
         </div>
         <div className ="MainBody">
-          <div className ="ImageContainer">
-            <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
-              <div className="ImageText">
-                <p> We are a catering company that is here for you. </p>
-                <div className="ImageButtons">
-                  <button className ="Button">Contact Us</button>
-                  <button className ="Button">Support</button>
+          <div className="WEB">
+            <div className ="ImageContainer">
+              <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
+                <div className="ImageText">
+                  <p> We are a catering company that is here for you. </p>
+                  <div className="ImageButtons">
+                    <a href="/Contact"> <button className ="Button">Contact Us</button> </a>
+                    <button className ="Button">Support</button>
+                  </div>
                 </div>
+            </div>
+            
+              <div className ="ImageContainer">
+                  <div className="ImageText">
+                    <p> We are a catering company that is here for you. </p>
+                    <div className="ImageButtons">
+                      <a href="/Contact"> <button className ="Button">Contact Us</button> </a>
+                      <button className ="Button">Support</button>
+                    </div>
+                  </div>
+                <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
               </div>
-          </div>
-          <div className ="ImageContainer">
+              <div className ="ImageContainer">
+                <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
+                  <div className="ImageText">
+                    <p> We are a catering company that is here for you. </p>
+                    <div className="ImageButtons">
+                      <a href="/Contact"> <button className ="Button">Contact Us</button> </a>
+                      <button className ="Button">Support</button>
+                    </div>
+                  </div>
+              </div>
+  
+            </div>
+            <div className="Mobile">
+              <div className ="ImageContainer">
+                <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
+                <div className ="mobButtons">
 
-              <div className="ImageText">
-                <p> We are a catering company that is here for you. </p>
-                <div className="ImageButtons">
-                  <button className ="Button">Contact Us</button>
-                  <button className ="Button">Support</button>
+                  <button className ="Button"> Contact us </button>
+                  <button className ="Button"> Gallery </button>
+                  <button className ="Button"> Social Media </button>
+                  
+                  
                 </div>
               </div>
-            <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
-          </div>
-          <div className ="ImageContainer">
-            <Image src= '/Images/-Insert_image_here-.svg.png' alt="Image" width={500} height={500} className="MainImage"/>
-              <div className="ImageText">
-                <p> We are a catering company that is here for you. </p>
-                <div className="ImageButtons">
-                  <button className ="Button">Contact Us</button>
-                  <button className ="Button">Support</button>
-                </div>
-              </div>
-          </div>
- 
+
+            
+            </div>
         </div>
           <div className ="PageFooter">
-            <div className="FooterText">
-              <p>Contact us</p>
-              <p>Social</p>
-              <p>Directions</p>
-            </div>
+            
+              <a href="/Contact"><p className="FooterText"> Contact us</p></a>
+              <p className="FooterText">Social</p>
+              <p className="FooterText">Directions</p>
+            
           </div>
 
-    </div>
+    </div> 
   );
 }

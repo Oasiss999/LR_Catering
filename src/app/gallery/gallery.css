@@ -30,7 +30,7 @@ body{
 .anImage{
     display:flex;
     justify-content: center;
-    background: rgb(245, 245, 245);
+    background: rgb(190, 92, 92);
     margin-bottom: 5px;
     width: 70rem;
     height: 20rem;

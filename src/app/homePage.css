@@ -56,9 +56,9 @@
 
 .MainBody{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
     padding: 20px;
     padding-top: 20px;
 }
@@ -105,12 +105,83 @@
     align-items: center;
 }
 .PageFooter{
+    
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: #611907;
     width: 100%;
+    gap:2rem;
 }
 .FooterText{
     display: flex;
     gap: 2rem;
+}
+
+.FooterText:hover{
+    color: rgb(67, 164, 255);
+} 
+
+.Mobile{
+    display: none;
+}
+
+
+
+@media(max-width: 375px){
+
+.TopBar {
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  
+}
+
+.TopBarButtons{
+    display: none;
+}
+
+.Title {
+    display: initial;
+    font-size: 20;
+    margin:none;
+    
+}
+
+.ImageContainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageButtons{
+    align-self: center;
+    gap: 1rem;
+}
+
+
+.WEB{
+    display: none;
+}
+
+.ImageText{
+    align-self: center;
+    font-size: 2vh;
+}
+
+.Mobile{
+    display: initial;
+}
+
+.mobButtons{
+margin-top:1vh;
+}
+.Button{
+    height: 6vh;
+    font-size:1.5vh;
+}
+
 }
